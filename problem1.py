@@ -8,7 +8,6 @@ def pile():
     a.sort()
 #checking the pairs of socks with same colors
     count = 0
-    i=0
     for i in range(n+1):
         try:
             if a[i]==a[i+1]:
